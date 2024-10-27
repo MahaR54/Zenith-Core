@@ -1,0 +1,11 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly datapaths.TopTest -- -DwriteVcd=1, Some(93485b6a-6284-4359-aecd-748c58d6ad69), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 3 Scala sources to /home/adeia/Scala-Chisel-Learning-Journey/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/adeia/Scala-Chisel-Learning-Journey/src/main/scala/datapaths/Top.scala:30:28: value dout00200113 is not a member of chisel3.Bundle{val address: chisel3.UInt; val din: chisel3.Vec[chisel3.UInt]; val enb: chisel3.Bool; val fun3: chisel3.UInt; val load: chisel3.Bool; val store: chisel3.Bool; val mask: chisel3.Vec[chisel3.Bool]; val dout: chisel3.Vec[chisel3.UInt]}[0m
+[0m[[0m[31merror[0m] [0m[0m    load.io.din := dmem.io.dout00200113[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 4 s, completed Sep 20, 2023, 12:15:12 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

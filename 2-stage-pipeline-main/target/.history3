@@ -1,0 +1,42 @@
+1695015640448:sbt
+1695015706079:testOnly datapaths.TopTest-- -DwiteVcd=1
+1695187272366:testOnly datapaths.TopTest
+1695187463774:testOnly datapaths.TopTest-- -DwriteVCd=1
+1695187476557:testOnly datapaths.TopTest -- -DwriteVCd=1
+1695188362868:testOnly datapaths.TopTest -- -DwriteVcd=1
+1695290951791:[A
+1695290953453:testOnly datapaths.TopTest -- -DwriteVcd=1
+1696598241654:testOnly singlecycle.FetchTest -- -DwriVcd=1
+1696606823945:testOnly singlecycle.FetchTest -- -DwriteVcd=1
+1696617452606:testOnly singlecycle.TopTest -- -DwriteVcd=1
+1696617606658:testOnly datapaths.CPUTest -- -DwriteVcd=1
+1696617633078:testOnly singlecycle.CPUTest -- -DwriteVcd=1
+1696688119667:testOnly datapaths.CPUTest -- -DwriteVcd=1
+1696688127649:testOnly singlecycle.CPUTest -- -DwriteVcd=1
+1696771242360:testOnly singlecycle.single_cycleTest -- -DwriteVcd=1
+1697023794304:sbt
+1697023825916:testOnly singlecycle.single_cycleTest -- -DwriteVcd=1
+1697031871680:sbt
+1697031874072:testOnly singlecycle.single_cycleTest -- -DwriteVcd=1
+1697111319501:[A
+1697111321569:testOnly singlecycle.single_cycleTest -- -DwriteVcd=1
+1697123409005:[A
+1697123411250:testOnly singlecycle.single_cycleTest -- -DwriteVcd=1
+1697365301430:sbtCLEAR
+1697365309888:testOnly singlecycle.single_cycleTest -- -DwriteVcd=1
+1697366830568:sbt
+1697366832869:testOnly singlecycle.single_cycleTest -- -DwriteVcd=1
+1697368377504:sbt
+1697368379120:testOnly singlecycle.single_cycleTest -- -DwriteVcd=1
+1702991142256:pwd
+1702991192574:testOnly singlecycle.single_cyclesTest -- -DwriteVcd=1
+1703156621879:pwd
+1703156623448:testOnly singlecycle.single_cyclesTest -- -DwriteVcd=1
+1703157432558:pwd
+1703157436200:testOnly singlecycle.single_cyclesTest -- -DwriteVcd=1
+1703239232621:pwd
+1703239234090:testOnly singlecycle.single_cyclesTest -- -DwriteVcd=1
+1704295248497:OA
+1704295250800:testOnly singlecycle.single_cyclesTest -- -DwriteVcd=1
+1704456704664:testOnly singlecycle.immtest -- -DwriteVcd=1
+1704458179086:testOnly singlecycle.single_cyclesTest -- -DwriteVcd=1

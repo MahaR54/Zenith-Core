@@ -1,0 +1,6 @@
+[0m[[0m[31merror[0m] [0m[0m/home/adeia/Documents/single cycle/src/test/scala/singlecycle/immtest.scala:12:25: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : chisel3.UInt[0m
+[0m[[0m[31merror[0m] [0m[0m required: chisel3.SInt[0m
+[0m[[0m[31merror[0m] [0m[0m      a.io.out.expect(8.U)[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

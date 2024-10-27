@@ -1,0 +1,15 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly singlecycle.single_cyclesTest -- -DwriteVcd=1, Some(0583cfeb-fe69-417a-8770-f4e57f692969), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/adeia/Documents/single cycle/target/scala-2.12/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[32msingle_cyclesTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Chisel Tester file [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 9 seconds, 386 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 15 s, completed Jan 2, 2024, 6:51:34 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn the last 6837 seconds, 6.704 (0.1%) were spent in GC. [Heap: 0.94GB free of 1.00GB, max 1.00GB] Consider increasing the JVM heap using `-Xmx` or try a different collector, e.g. `-XX:+UseG1GC`, for better performance.[0m

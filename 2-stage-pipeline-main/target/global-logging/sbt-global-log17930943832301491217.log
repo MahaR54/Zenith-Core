@@ -1,0 +1,23 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly singlecycle.CPUTest -- -DwriteVcd=1, Some(0d6678ec-6439-4dc4-b224-a40dd81ebad1), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mCPUTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Chisel Tester file  *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  chisel3.internal.ChiselException: Connection between sink (Bool(IO io_enb in Fetch)) and source (Bool(IO io_reg_pc_enb in controlunit)) failed @: Sink or source unavailable to current module.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at ... ()[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at singlecycle.CPU.<init>(CPU.scala:27)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at singlecycle.CPUTest.$anonfun$new$2(CPUTest.scala:9)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at ... ()[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at ... (Stack trace trimmed to user code only. Rerun with --full-stacktrace to see the full stack trace)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 3 seconds, 168 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 0, failed 1, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 1 TEST FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	singlecycle.CPUTest[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtestOnly[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 11 s, completed Oct 6, 2023, 11:49:26 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m

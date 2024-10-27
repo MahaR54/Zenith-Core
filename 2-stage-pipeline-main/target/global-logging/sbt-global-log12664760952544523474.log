@@ -1,0 +1,12 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly singlecycle.single_cyclesTest -- -DwriteVcd=1, Some(0d2fde54-87ff-439f-80c4-2e3e45a608ff), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/adeia/Documents/single cycle/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/adeia/Documents/single cycle/src/main/scala/singlecycle/Fetch.scala:22:41: ';' expected but ')' found.[0m
+[0m[[0m[31merror[0m] [0m[0mval con=preinst(6,0)==="b1101111".asUInt)&& (io.inst(6,0)==="b1100011".asUInt)|| [0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed Jan 2, 2024, 7:34:31 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

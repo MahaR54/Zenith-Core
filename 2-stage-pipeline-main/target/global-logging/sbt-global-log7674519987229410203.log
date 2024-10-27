@@ -1,0 +1,14 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly singlecycle.single_cyclesTest -- -DwriteVcd=1, Some(85882d99-2177-4cc4-bb71-2c30d22fe9e7), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/adeia/Documents/single cycle/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/adeia/Documents/single cycle/src/main/scala/singlecycle/Fetch.scala:26:14: value preinst is not a member of chisel3.Bundle{val enb: chisel3.Bool; val branch: chisel3.SInt; val in: chisel3.UInt; val inst: chisel3.UInt; val valid: chisel3.Bool; val out: chisel3.UInt; val preout: chisel3.UInt; val req: chisel3.Bool}[0m
+[0m[[0m[31merror[0m] [0m[0m     Mux((io.preinst(6,0)==="b1100011".asUInt) & (io.branch===1.S)& (io.preinst(31)===1.U),io.in,prevValueReg+io.in),PCs+io.in)[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/adeia/Documents/single cycle/src/main/scala/singlecycle/Fetch.scala:26:73: value preinst is not a member of chisel3.Bundle{val enb: chisel3.Bool; val branch: chisel3.SInt; val in: chisel3.UInt; val inst: chisel3.UInt; val valid: chisel3.Bool; val out: chisel3.UInt; val preout: chisel3.UInt; val req: chisel3.Bool}[0m
+[0m[[0m[31merror[0m] [0m[0m     Mux((io.preinst(6,0)==="b1100011".asUInt) & (io.branch===1.S)& (io.preinst(31)===1.U),io.in,prevValueReg+io.in),PCs+io.in)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed Jan 5, 2024, 6:01:28 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

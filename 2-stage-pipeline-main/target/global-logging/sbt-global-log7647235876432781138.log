@@ -1,0 +1,13 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly datapaths.TopTest -- -DwriteVcd=1, Some(9b85af26-04a3-4c72-9103-32c9a004b2ad), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/adeia/Scala-Chisel-Learning-Journey/target/scala-2.12/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mTopTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Chisel Tester file [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 10 seconds, 532 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 1, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 28 s, completed Sep 20, 2023, 2:56:01 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

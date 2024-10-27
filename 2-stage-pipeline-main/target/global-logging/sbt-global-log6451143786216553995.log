@@ -1,0 +1,36 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly singlecycle.single_cycleTest -- -DwriteVcd=1, Some(6b51952a-3a2b-4104-b2e1-671da94db054), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/adeia/single cycle/target/scala-2.12/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[32msingle_cycleTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Chisel Tester file  *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  firrtl.transforms.CheckCombLoops$CombLoopException: : [module single_cycle] Combinational loop detected:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31msingle_cycle.insmem.io_rdata[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31msingle_cycle.cpu.io_rdata	 @[single_cycle.scala 21:17][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31msingle_cycle.cpu.decode.io_instruction	 @[CPU.scala 49:26][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31msingle_cycle.cpu.decode.io_instout	 @[Decode.scala 51:15][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31msingle_cycle.cpu._fetch_io_valid_T_5	 @[CPU.scala 39:126][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31msingle_cycle.cpu._fetch_io_valid_T_6	 @[CPU.scala 39:131][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31msingle_cycle.cpu._fetch_io_valid_T_7	 @[CPU.scala 39:106][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31msingle_cycle.cpu._fetch_io_valid_T_8	 @[CPU.scala 39:22][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31msingle_cycle.cpu.fetch.io_valid	 @[CPU.scala 39:17][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31msingle_cycle.cpu.fetch._GEN_0	 @[Fetch.scala 17:19 Fetch.scala 19:11 Fetch.scala 16:11][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31msingle_cycle.cpu.fetch.io_out	[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31msingle_cycle.cpu.io_address	 @[CPU.scala 34:13][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31msingle_cycle.insmem.io_address	 @[single_cycle.scala 24:22][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31msingle_cycle.insmem._io_rdata_T	 @[instmem.scala 15:30][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31msingle_cycle.insmem._io_rdata_T_1	 @[instmem.scala 15:19][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31msingle_cycle.insmem.memory.io_rdata_MPORT.addr	 @[instmem.scala 15:19][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31msingle_cycle.insmem.memory.io_rdata_MPORT.data	 @[instmem.scala 13:19][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31msingle_cycle.insmem.io_rdata	 @[instmem.scala 15:11][0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 5 seconds, 336 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 0, failed 1, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 1 TEST FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	singlecycle.single_cycleTest[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtestOnly[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 7 s, completed Oct 13, 2023, 5:35:24 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

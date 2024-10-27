@@ -1,0 +1,20 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly singlecycle.single_cyclesTest -- -DwriteVcd=1, Some(63a809a2-4a45-422a-bc8c-6ef12dd071fe), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to /home/adeia/Documents/single cycle/target/scala-2.12/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[32msingle_cyclesTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- Chisel Tester file  *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  firrtl.passes.CheckInitialization$RefNotInitializedException: : [module instmem]  Reference io is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : io.valid <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 4 seconds, 479 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 0, failed 1, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 1 TEST FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	singlecycle.single_cyclesTest[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[31merror[0m] [0m[0m(Test / [31mtestOnly[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 9 s, completed Dec 20, 2023, 4:40:18 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

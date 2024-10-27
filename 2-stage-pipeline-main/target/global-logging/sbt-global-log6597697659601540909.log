@@ -1,0 +1,11 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly singlecycle.single_cycleTest -- -DwriteVcd=1, Some(88efa27e-d8a0-48aa-85c9-fec32795c7a5), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 13 Scala sources to /home/adeia/single cycle/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/adeia/single cycle/src/main/scala/singlecycle/Decode.scala:59:13: not found: value reg[0m
+[0m[[0m[31merror[0m] [0m[0m  io.valid:=reg.io.valid [0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 5 s, completed Oct 12, 2023, 5:37:53 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

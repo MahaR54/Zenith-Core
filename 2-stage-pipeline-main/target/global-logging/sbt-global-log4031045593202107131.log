@@ -1,0 +1,19 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(testOnly singlecycle.single_cycleTest -- -DwriteVcd=1, Some(c99084b0-a876-407f-9076-8d620afe4ba1), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Test / testOnly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/adeia/single cycle/target/scala-2.12/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/adeia/single cycle/src/main/scala/singlecycle/datamemory.scala:298:27: value mem is not a member of singlecycle.memory[0m
+[0m[[0m[31merror[0m] [0m[0m    load.io.wdata := dmem.mem.io.wdata[0m
+[0m[[0m[31merror[0m] [0m[0m                          ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/adeia/single cycle/src/main/scala/singlecycle/datamemory.scala:299:28: value mem is not a member of singlecycle.memory[0m
+[0m[[0m[31merror[0m] [0m[0m    load.io.address:=(dmem.mem.io.address(1,0)).asUInt[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/adeia/single cycle/src/main/scala/singlecycle/datamemory.scala:302:60: value mem is not a member of singlecycle.memory[0m
+[0m[[0m[31merror[0m] [0m[0m    store.io.address:=Mux(io.ins(6,0)==="b0000011".U,(dmem.mem.io.wdata).asUInt,[0m
+[0m[[0m[31merror[0m] [0m[0m                                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 2 s, completed Oct 8, 2023, 6:22:36 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m

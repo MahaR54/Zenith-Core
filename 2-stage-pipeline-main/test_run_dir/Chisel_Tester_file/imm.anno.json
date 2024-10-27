@@ -1,0 +1,22 @@
+[
+  {
+    "class":"firrtl.stage.FirrtlFileAnnotation",
+    "file":"test_run_dir/Chisel_Tester_file/imm.lo.fir"
+  },
+  {
+    "class":"firrtl.transforms.CombinationalPath",
+    "sink":"~imm|imm>io_out",
+    "sources":[
+      "~imm|imm>io_ins",
+      "~imm|imm>io_pc_out"
+    ]
+  },
+  {
+    "class":"firrtl.EmitCircuitAnnotation",
+    "emitter":"firrtl.LowFirrtlEmitter"
+  },
+  {
+    "class":"firrtl.transforms.BlackBoxTargetDirAnno",
+    "targetDir":"test_run_dir/Chisel_Tester_file"
+  }
+]
